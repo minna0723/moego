@@ -83,14 +83,14 @@ body{font-family: 'Pretendard-Regular', sans-serif; color: #000; max-width: 100%
 /* box_3 */
 .box_3{width: 44.0625rem; height: 19.25rem; border-radius: 1.25em; background: #fff; }
 .box3_menu{display: flex; padding: 1.875em 1.625em 1.25em; position: relative;}
-.box3_menu::after{position: absolute; content: ''; width: 90%; border: 1px solid #d0d0d0; bottom: 0;left: 50%;transform: translateX(-50%);}
+.box3_menu::after{position: absolute; content: ''; width: 93%; border: 1px solid #d0d0d0; bottom: 0;left: 50%;transform: translateX(-50%);}
 .box3_menu li{ margin-right: 1em; position: relative;}
-.box3_menu li a::after{content: ''; position: absolute; display: inline-block; left: 0; bottom: -98%; z-index: 1; width: 0; border-bottom: 2px solid #e6223f; position: absolute; transition: 0.3s;}
+.box3_menu li a::after{content: ''; position: absolute; display: inline-block; left: -1%; bottom: -98%; z-index: 1; width: 0; border-bottom: 2px solid #e6223f; position: absolute; transition: 0.3s;}
 .box3_menu li a.active::after {width: 100%;}
 .box3_menu li:last-child::after{display: none;}
 .box3_menu li a{font-size:1.25rem; letter-spacing: 0.025em; color: #757575; font-family: 'Pretendard-Medium', sans-serif; }
 .box3_menu li a.active{color: #000;}
-.box3_menu li:last-child{position: absolute; right: 0;}
+.box3_menu li:last-child{position: absolute; right: 1%;}
 .box3_menu a .fa-plus{color: #000; transition: 0.5s;}
 .box3_menu a .fa-plus:hover{transform: rotate(180deg);}
 .box3_contents{position: relative; margin: 1.125em 1.625em 0; width: 100%; left: 50%; transform: translateX(-50%);}
